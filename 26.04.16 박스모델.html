@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>박스모델</title>
+    <style>
+        #d1{
+            width: 200px;
+            background-color: lightpink;
+            border: 10px solid red;
+            box-sizing: border-box;
+            box-shadow: 10px 10px 10px 10px black;
+        }
+        #d2{
+            background-color: blue;
+            padding: 100px 200px;
+            /*
+                1개: 위아래+양옆
+                2개: 위아래, 양옆 따로
+                4개: 위 > 오른> 아래> 왼 순으로 적용
+             */
+            padding: 20px;
+            width: 200px;
+            border: 10px solid green;
+            box-sizing: border-box;
+        }
+        span{
+            width: 10000px;
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <div id="d1">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquid at, dicta dolore dolores eligendi fuga illum minima neque, placeat repudiandae vero. Ab aliquid eius esse minus nam odio sequi.
+    </div>
+    <div id="d2">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem cumque deleniti distinctio dolorem dolores dolorum earum eius libero minus molestiae neque odit provident, quis, sed tempore unde voluptates. Dolores, nisi!
+    </div>
+
+    <span>SPAN!!!!!</span>
+
+</body>
+</html>

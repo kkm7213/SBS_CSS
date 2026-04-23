@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            text-align: center;
+            background-color: lightpink;
+            /* fixed: 현재 위치를 고정하기. 상단 바에 자주 사용됨*/
+            /*스크롤을 움직여도 그 위치에 그대로 있음*/
+            /* width, height 등 요소의 크기를 직접 정해야 함*/
+            position: fixed;
+            width: 100%;
+        }
+        main{
+            padding-top: 100px;
+            background-color: darkcyan;
+        }
+        aside{
+            text-align: center;
+            width: 250px;
+            height: 1000px;
+            display: inline-block;
+            background-color: aqua;
+        }
+        section{
+            width: 100px;
+            height: 100px;
+            text-align: center;
+            display: inline-block;
+            background-color: aquamarine;
+            /*position: sticky
+             그 자리에 있다가, 화면을 벗어날 것 같으면 화면에 붙어서 같이 이동하세요.*/
+            position: sticky;
+            /* 붕어있을 기준점을 정해줘야 함. 자신의 부모 최상단에 붙어라 */
+            top: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>HEADER</header>
+    <main>
+        <aside>ASIDE</aside>
+        <section>Section</section>
+    </main>
+</body>
+</html>
