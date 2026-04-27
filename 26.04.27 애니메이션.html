@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>애니메이션</title>
+    <style>
+        .box1{
+            background: aquamarine;
+            width: 200px;
+            height: 200px;
+            animation-name: right_move;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+        @keyframes right_move {
+
+            from{
+                background-color: black;
+            }
+
+            to{
+                background-color: red;
+                transform: translateX(500px);
+            }
+        }
+        .box2{
+            width: 200px;
+            height: 200px;
+            background-color: aquamarine;
+            animation-name: move;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+
+        }
+        @keyframes move{
+            from{
+                background-color: coral;
+            }
+            50%{
+                background-color: aquamarine;
+                transform: translateY(500px);
+            }
+            to{
+                background-color: aliceblue;
+                transform: translateX(500px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box1"></div>
+    <div class="box2"></div>
+</body>
+</html>
