@@ -66,79 +66,132 @@
         .icon-btn:hover .more-container{
             display: flex;
         }
+        label{
+            background-color: darkgray;
+            display: inline-block;
+            padding: 0 5px;
+            width: 500px;
+            display: flex;
+            align-items: center;
+            border-radius: 30px;
+            margin-bottom: 30px;
+        }
+        label:hover{
+            background-color: lightgray;
+        }
+        input{
+            padding: 10px;
+            background-color: unset;
+            border: none;
+            outline: none;
+            color: black;
+            background-color: transparent;
+        }
+        .ap{
+            border:none;
+            background-color: unset;
+            padding: 0 0 0 10px;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 5px;
+        }
+        .bi-apple{
 
-
+            color: white;
+            font-size: 25px;
+        }
+        input::placeholder{
+            color: white;
+        }
+        main{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100vh;
+        }
     </style>
 </head>
 <body>
-<ul class="btn-list">
-    <li>
-        <button class="icon-btn">
-            <div class="icon-container">
-                <i class="bi bi-airplane-fill"></i>
-                <div class="more-container">
-                    <i class="bi bi-three-dots"></i>
-                </div>
-            </div>
-            <div class="title">항공편 예약</div>
+    <main>
+    <label>
+        <button class="ap">
+            <i class="bi bi-apple"></i>
         </button>
-    </li>
-    <li>
-        <button class="icon-btn">
-            <div class="icon-container">
-                <i class="bi bi-airplane-fill"></i>
-                <div class="more-container">
-                    <i class="bi bi-three-dots"></i>
+        <input type="text" placeholder="검색어를 입력하세요">
+    </label>
+    <ul class="btn-list">
+        <li>
+            <button class="icon-btn">
+                <div class="icon-container">
+                    <i class="bi bi-airplane-fill"></i>
+                    <div class="more-container">
+                        <i class="bi bi-three-dots"></i>
+                    </div>
                 </div>
-            </div>
-            <div class="title">항공편 예약</div>
-        </button>
-    </li>
-    <li>
-        <button class="icon-btn">
-            <div class="icon-container">
-                <i class="bi bi-airplane-fill"></i>
-                <div class="more-container">
-                    <i class="bi bi-three-dots"></i>
+                <div class="title">항공편 예약</div>
+            </button>
+        </li>
+        <li>
+            <button class="icon-btn">
+                <div class="icon-container">
+                    <i class="bi bi-airplane-fill"></i>
+                    <div class="more-container">
+                        <i class="bi bi-three-dots"></i>
+                    </div>
                 </div>
-            </div>
-            <div class="title">항공편 예약</div>
-        </button>
-    </li>
-    <li>
-        <button class="icon-btn">
-            <div class="icon-container">
-                <i class="bi bi-airplane-fill"></i>
-                <div class="more-container">
-                    <i class="bi bi-three-dots"></i>
+                <div class="title">항공편 예약</div>
+            </button>
+        </li>
+        <li>
+            <button class="icon-btn">
+                <div class="icon-container">
+                    <i class="bi bi-airplane-fill"></i>
+                    <div class="more-container">
+                        <i class="bi bi-three-dots"></i>
+                    </div>
                 </div>
-            </div>
-            <div class="title">항공편 예약</div>
-        </button>
-    </li>
-    <li>
-        <button class="icon-btn">
-            <div class="icon-container">
-                <i class="bi bi-airplane-fill"></i>
-                <div class="more-container">
-                    <i class="bi bi-three-dots"></i>
+                <div class="title">항공편 예약</div>
+            </button>
+        </li>
+        <li>
+            <button class="icon-btn">
+                <div class="icon-container">
+                    <i class="bi bi-airplane-fill"></i>
+                    <div class="more-container">
+                        <i class="bi bi-three-dots"></i>
+                    </div>
                 </div>
-            </div>
-            <div class="title">항공편 예약</div>
-        </button>
-    </li>
-    <li>
-        <button class="icon-btn">
-            <div class="icon-container">
-                <i class="bi bi-airplane-fill"></i>
-                <div class="more-container">
-                    <i class="bi bi-three-dots"></i>
+                <div class="title">항공편 예약</div>
+            </button>
+        </li>
+        <li>
+            <button class="icon-btn">
+                <div class="icon-container">
+                    <i class="bi bi-airplane-fill"></i>
+                    <div class="more-container">
+                        <i class="bi bi-three-dots"></i>
+                    </div>
                 </div>
-            </div>
-            <div class="title">항공편 예약</div>
-        </button>
-    </li>
-</ul>
+                <div class="title">항공편 예약</div>
+            </button>
+        </li>
+        <li>
+            <button class="icon-btn">
+                <div class="icon-container">
+                    <i class="bi bi-airplane-fill"></i>
+                    <div class="more-container">
+                        <i class="bi bi-three-dots"></i>
+                    </div>
+                </div>
+                <div class="title">항공편 예약</div>
+            </button>
+        </li>
+    </ul>
+    </main>
+
 
 
 
